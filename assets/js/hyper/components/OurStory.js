@@ -20,14 +20,15 @@ export default function OurStory({ state, actions }) {
 							kombucha polaroid dreamcatcher.
 						</p>
 						<div class="quote">
-							"The best steak in the city of Toronto" - Thomas Eggsy
+							"The best steak in the city of Toronto" -{' '}
+							<strong>Thomas Eggsy</strong>
 						</div>
 						<a href="#" class="reserve-btn">
 							Reserve
 						</a>
 					</div>
 					<div class="col-md-6">
-						<img src="" />
+						<div class="video-img"></div>
 					</div>
 				</div>
 			</div>
