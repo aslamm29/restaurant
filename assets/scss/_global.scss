@@ -31,3 +31,11 @@ a{
         color: $red;
     }
 }
+
+.textureBG{
+    background: $greyBG;
+    background-image: url("/img/texture.png");
+    background-position: center;
+    //background-size: cover;
+    background-repeat: repeat;
+}
