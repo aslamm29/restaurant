@@ -9,7 +9,7 @@
         padding: 70px;;
         background: #fff;
         
-        .city{
+        .title{
             font-family: $displayFont;
             font-size: 2rem;
             margin-bottom: 2rem;
@@ -18,12 +18,13 @@
         h6{
             font-size: .9rem;
             font-weight: 600;
-            color: $titleColor;
+            color: $black;
             line-height: 1.7;
         }
 
         p{
             font-weight: 400;
+            margin-bottom: 20px;
             strong{
                 color: $black;
                 text-transform: capitalize;

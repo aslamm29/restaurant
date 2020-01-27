@@ -9,7 +9,7 @@ export default function ContactUs({ state, actions }) {
 				<div class="box">
 					<div class="row">
 						<div class="col-md-6">
-							<div class="city">Toronto, Ontario</div>
+							<div class="title">Toronto, Ontario</div>
 							<h6 class="address">
 								435 yonge street <br />
 								Greater Toronto Area, M2H562
@@ -19,7 +19,18 @@ export default function ContactUs({ state, actions }) {
 								<a href="mailto:info@primesteak.com">info@primesteak.com</a>
 							</p>
 						</div>
-						<div class="col-md-6">Two</div>
+						<div class="col-md-6">
+							<h6>Phone:</h6>
+							<div class="title">647-925-7932</div>
+							<h6>Lunch Service</h6>
+							<p>
+								Friday, Saturday and Sunday <br /> from 12pm-1.30pm
+							</p>
+							<h6>Dinner Service</h6>
+							<p>
+								Daily <br /> from 6pm-9.30pm
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
