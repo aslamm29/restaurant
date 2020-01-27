@@ -2,11 +2,11 @@
     padding: 100px 0;
 
     .quote{
-        color: grey;
+        color: $paragraphColor;
         margin: .5rem 0 3rem;
 
         strong{
-            color: #000;
+            color: $black;
             font-weight: 700;
         }
     }
@@ -15,15 +15,15 @@
         font-family: $displayFont;
         display: inline-block;
         padding: 20px 40px;
-        border: 1px solid black;
+        border: 1px solid $black;
         text-align: center;
         text-decoration: none;
-        color: black;
+        color: $black;
         text-transform: uppercase;
-        transition: all .5s ease-in-out;
+        transition: all .3s ease-in-out;
         &:hover{
-            background: orange;
-            color: black;
+            background: $red;
+            color: white;
         }
     }
 
