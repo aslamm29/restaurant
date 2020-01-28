@@ -35,7 +35,7 @@ export default function Footer({ state, actions }) {
 					</li>
 				</ul>
 
-				<div class="copyright">© 2018 Copyright</div>
+				<div class="copyright">© 2020 Copyright</div>
 			</div>
 		</footer>
 	);
