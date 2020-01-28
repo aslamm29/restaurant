@@ -11,7 +11,7 @@ export default function ContactUs({ state, actions }) {
 						<div class="col-md-6">
 							<div class="title">Toronto, Ontario</div>
 							<h6 class="address">
-								435 yonge street <br />
+								435 Yonge Street <br />
 								Greater Toronto Area, M2H562
 							</h6>
 							<p>

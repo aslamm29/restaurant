@@ -6,11 +6,11 @@ export default function Header({ state, actions }) {
 			<div class="container">
 				<div class="logo">PS</div>
 				<nav>
-					<a href="#">Our Story</a>
-					<a href="#">Reviews</a>
-					<a href="#">Special Menu</a>
+					<a href="#OurStory">Our Story</a>
+					<a href="#Reviews">Reviews</a>
+					<a href="#SpecialMenu">Special Menu</a>
 					<a href="#">Reservations</a>
-					<a href="#">Contact Us</a>
+					<a href="#ContactUs">Contact Us</a>
 				</nav>
 			</div>
 		</header>
