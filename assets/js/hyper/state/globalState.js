@@ -76,9 +76,25 @@ var reviews = [
 	}
 ];
 
+var randomQuote = [
+	{
+		author: 'Khurana',
+		quote: 'Cooking Is An Expression That Crosses Boundaries.'
+	},
+	{
+		author: 'Gordon',
+		quote: 'Its not done until your steak is well done.'
+	},
+	{
+		author: 'Mike',
+		quote: 'It is the season of well seasoned steak.'
+	}
+];
+
 export const globalState = {
 	count: 0,
 	companyInfo,
 	specialMenuData,
-	reviews
+	reviews,
+	randomQuote
 };
