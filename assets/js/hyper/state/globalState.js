@@ -25,8 +25,60 @@ var specialMenuData = [
 	}
 ];
 
+var reviews = [
+	{
+		company: 'The Food Network',
+		author: 'Joe Bastiachi',
+		authorInfo: 'Winner Of The Chef Masters',
+		highlight: 'Best Restaurant in the GTA!',
+		review:
+			'The food is consistently outstanding. Service is the best in the city. Toronto is blessed with a lot of great restaurants, including a few elite steakhouses. This is one of those few. Table-side Caesar salad is so good. The steaks are great, as you would expect, and always cooked perfectly. Side dishes are amazing. Desserts equally fantastic. Additional touches that they provide make the experience even more enjoyable and special.'
+	},
+	{
+		company: 'Rate Your Food',
+		author: 'Joe Bastiachi',
+		authorInfo: 'Winner Of The Chef Masters',
+		highlight: 'Best Restaurant in the GTA!',
+		review:
+			'The food is consistently outstanding. Service is the best in the city. Toronto is blessed with a lot of great restaurants, including a few elite steakhouses. This is one of those few. Table-side Caesar salad is so good. The steaks are great, as you would expect, and always cooked perfectly. Side dishes are amazing. Desserts equally fantastic. Additional touches that they provide make the experience even more enjoyable and special.'
+	},
+	{
+		company: 'Food Critic',
+		author: 'Joe Bastiachi',
+		authorInfo: 'Winner Of The Chef Masters',
+		highlight: 'Best Restaurant in the GTA!',
+		review:
+			'The food is consistently outstanding. Service is the best in the city. Toronto is blessed with a lot of great restaurants, including a few elite steakhouses. This is one of those few. Table-side Caesar salad is so good. The steaks are great, as you would expect, and always cooked perfectly. Side dishes are amazing. Desserts equally fantastic. Additional touches that they provide make the experience even more enjoyable and special.'
+	},
+	{
+		company: 'Regal Prime',
+		author: 'Joe Bastiachi',
+		authorInfo: 'Winner Of The Chef Masters',
+		highlight: 'Best Restaurant in the GTA!',
+		review:
+			'The food is consistently outstanding. Service is the best in the city. Toronto is blessed with a lot of great restaurants, including a few elite steakhouses. This is one of those few. Table-side Caesar salad is so good. The steaks are great, as you would expect, and always cooked perfectly. Side dishes are amazing. Desserts equally fantastic. Additional touches that they provide make the experience even more enjoyable and special.'
+	},
+	{
+		company: 'Steak International',
+		author: 'Joe Bastiachi',
+		authorInfo: 'Winner Of The Chef Masters',
+		highlight: 'Best Restaurant in the GTA!',
+		review:
+			'The food is consistently outstanding. Service is the best in the city. Toronto is blessed with a lot of great restaurants, including a few elite steakhouses. This is one of those few. Table-side Caesar salad is so good. The steaks are great, as you would expect, and always cooked perfectly. Side dishes are amazing. Desserts equally fantastic. Additional touches that they provide make the experience even more enjoyable and special.'
+	},
+	{
+		company: 'MasterChef',
+		author: 'Joe Bastiachi',
+		authorInfo: 'Winner Of The Chef Masters',
+		highlight: 'Best Restaurant in the GTA!',
+		review:
+			'The food is consistently outstanding. Service is the best in the city. Toronto is blessed with a lot of great restaurants, including a few elite steakhouses. This is one of those few. Table-side Caesar salad is so good. The steaks are great, as you would expect, and always cooked perfectly. Side dishes are amazing. Desserts equally fantastic. Additional touches that they provide make the experience even more enjoyable and special.'
+	}
+];
+
 export const globalState = {
 	count: 0,
 	companyInfo,
-	specialMenuData
+	specialMenuData,
+	reviews
 };
