@@ -5,7 +5,7 @@ class Layout extends Component {
 	constructor() {
 		super();
 		this.state = {
-			name: 'Joe'
+			name: ''
 		};
 	}
 	clickedBtn = () => {};
@@ -20,13 +20,13 @@ class Layout extends Component {
 						<div className="menu">
 							<ul>
 								<li>
-									<a href="http://starterkit.codingphase.com" target="new">
+									<a href="#" target="new">
 										Documentation
 									</a>
 								</li>
 								<li>
-									<a href="http://www.codingphase.com" target="new">
-										CodingPhase.Com
+									<a href="#" target="new">
+										New
 									</a>
 								</li>
 							</ul>

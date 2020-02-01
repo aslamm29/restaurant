@@ -9,7 +9,7 @@ export default function ContactUs({ state, actions }) {
 				<div class="box">
 					<div class="row">
 						<div class="col-md-6">
-							<div class="title">Toronto, Ontario</div>
+							<div class="title">{state.companyInfo.location}</div>
 							<h6 class="address">
 								435 Yonge Street <br />
 								Greater Toronto Area, M2H562
