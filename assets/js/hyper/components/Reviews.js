@@ -1,6 +1,28 @@
 import { h, app } from 'hyperapp';
 
 export default function Reviews({ state, actions }) {
+	var currentReview = function() {
+		return (
+			<div>
+				<h5 class="comp-title">REVIEWS</h5>
+				<h2>{state.reviewsData[state.reviewStatus.currentReview].company}</h2>
+				<h4>
+					"{state.reviewsData[state.reviewStatus.currentReview].highlight}"
+				</h4>
+				<p>{state.reviewsData[state.reviewStatus.currentReview].review}</p>
+				<div class="author">
+					<strong>
+						{state.reviewsData[state.reviewStatus.currentReview].author}
+					</strong>{' '}
+					-{' '}
+					<em>
+						{state.reviewsData[state.reviewStatus.currentReview].authorInfo}
+					</em>
+				</div>
+			</div>
+		);
+	};
+
 	return (
 		<section id="Reviews">
 			<div class="container">
@@ -11,19 +33,7 @@ export default function Reviews({ state, actions }) {
 						</div>
 					</div>
 					<div class="col-md-4">
-						<h5 class="comp-title">REVIEWS</h5>
-						<h2>The Food Network</h2>
-						<h4>"Best Restaurant in the GTA!"</h4>
-						<p>
-							Beard meh flexitarian, paleo kitsch meditation dreamcatcher
-							typewriter VHS keffiyeh ennui activated charcoal. Deep v tofu
-							vaporware, yr vinyl man bun ethical raw denim 3 wolf moon
-							affogato.
-						</p>
-						<div class="author">
-							<strong>Joe Bastiachi</strong> -{' '}
-							<em>winner of the chef masters</em>
-						</div>
+						{currentReview()}
 						<div class="arrows">
 							<i class="fas fa-arrow-left"></i>
 							<i class="fas fa-arrow-right ready"></i>

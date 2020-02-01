@@ -25,7 +25,7 @@ var specialMenuData = [
 	}
 ];
 
-var reviews = [
+var reviewsData = [
 	{
 		company: 'The Food Network',
 		author: 'Joe Bastiachi',
@@ -76,7 +76,7 @@ var reviews = [
 	}
 ];
 
-var randomQuote = [
+var randomQuoteData = [
 	{
 		author: 'Khurana',
 		quote: 'Cooking Is An Expression That Crosses Boundaries.'
@@ -95,6 +95,9 @@ export const globalState = {
 	count: 0,
 	companyInfo,
 	specialMenuData,
-	reviews,
-	randomQuote
+	reviewsData,
+	randomQuoteData,
+	reviewStatus: {
+		currentReview: 1
+	}
 };
