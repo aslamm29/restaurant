@@ -23,6 +23,22 @@ export default function Reviews({ state, actions }) {
 		);
 	};
 
+	var leftClickBTN = function() {
+		if (state.reviewStatus.currentReview == 0) {
+			return;
+		} else {
+			actions.reviewLeftClicked();
+		}
+	};
+
+	var rightClickBTN = function() {
+		if (state.reviewStatus.currentReview == state.reviewsData.length - 1) {
+			return;
+		} else {
+			actions.reviewRightClicked();
+		}
+	};
+
 	return (
 		<section id="Reviews">
 			<div class="container">
@@ -36,11 +52,13 @@ export default function Reviews({ state, actions }) {
 						{currentReview()}
 						<div class="arrows">
 							<i
+								onclick={leftClickBTN}
 								class={`fas fa-arrow-left ${
 									state.reviewStatus.currentReview > 0 ? 'ready' : ''
 								}`}
 							></i>
 							<i
+								onclick={rightClickBTN}
 								class={`fas fa-arrow-right ${
 									state.reviewStatus.currentReview ==
 									state.reviewsData.length - 1
