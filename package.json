@@ -1,5 +1,5 @@
 {
-  "name": "HyperApp-Starter-kit",
+  "name": "Restaurant",
   "version": "4.0.1",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,7 @@
     "dev:webpack": "webpack --mode development --env.NODE_ENV=dev",
     "build:webpack": "webpack --mode production --env.NODE_ENV=production",
     "watch": "gulp",
+    "deploy": "gulp deploy",
     "proxy": "gulp watch-proxy",
     "static:dev": "gulp static-dev",
     "static:build": "gulp static-dev",
@@ -36,6 +37,7 @@
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-edgejs": "^0.2.4",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-imagemin": "^5.0.3",
     "gulp-pretty-url": "^0.1.1",
     "gulp-sass": "^3.0.0",

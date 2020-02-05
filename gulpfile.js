@@ -9,6 +9,14 @@ const imagemin = require('gulp-imagemin');
 const prettyUrl = require('gulp-pretty-url');
 var del = require('del');
 const gulpEdge = require('gulp-edgejs');
+const ghpages = require('gulp-gh-pages');
+
+
+//Deploy on github pages
+gulp.task('deploy', function() {
+	return gulp.src("./dist/**/*")
+			   .pipe(ghpages());
+ }
 
 // Compiles SCSS To CSS
 gulp.task(
