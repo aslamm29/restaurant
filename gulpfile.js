@@ -16,7 +16,7 @@ const ghpages = require('gulp-gh-pages');
 gulp.task('deploy', function() {
 	return gulp.src("../public/index.html")
 			   .pipe(ghpages());
- }
+ })
 
 // Compiles SCSS To CSS
 gulp.task(
