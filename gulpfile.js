@@ -14,7 +14,7 @@ const ghpages = require('gulp-gh-pages');
 
 //Deploy on github pages
 gulp.task('deploy', function() {
-	return gulp.src("../public/index.html")
+	return gulp.src("public/index.html")
 			   .pipe(ghpages());
  })
 
